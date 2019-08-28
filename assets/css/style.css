@@ -38,6 +38,7 @@ body {
     margin: 0 auto;    
 }
 
+
 header {
     display: flex;
     justify-content: space-between;
@@ -85,12 +86,20 @@ a:hover {
     display: block;
     position: absolute;
     top: 60px;
-    bottom: 0;
+    bottom: -17px;
     left: 0;
     right: 0;
     background-color: #181818;
     opacity: .6;
     z-index: -1;
+    
+}
+.hero-content::after{
+    content: url(/media/Basil1.png);
+    position: absolute;
+    z-index: 1;
+    right: -905px;
+    bottom: -390px;
     
 }
 
@@ -153,6 +162,8 @@ h2{
     width: 1086px;
     border-radius: 10px;
     box-shadow: 0 5px 8px 0 rgba(24, 24, 24, 0.06);
+    background-color: #FFF;
+    bottom:-7px;
 }
 .container::before {
     content: '';
@@ -175,7 +186,7 @@ h2{
 	height: 60px;
 	background-color: #FFF;
     position: relative;
-    top: 60px;
+    top: 53px;
 	z-index: 5;
 	border-bottom-right-radius:20px;
 	border-bottom-left-radius: 20px;
@@ -242,8 +253,13 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    
-
+}
+footer::before{
+    content: url(/media/Basil2.png);
+    z-index: -1;
+    position: absolute;
+    top: -315px;
+    left: -850px;    
 }
 
 .adress{
