@@ -17,14 +17,14 @@ p{
 
 @media (min-width: 320px) {
     header {
-        background-color:;
+        background-color:red;
 
     }
 
 }
 @media (min-width: 640px){
     header{
-        background-color:;
+        background-color:blue;
     }
 }
 
