@@ -65,6 +65,10 @@ a:hover {
     transition: 300ms color ease;
 }
 
+.sub1{
+    display: none;
+}
+
 .hero-content {
     height: calc(100vh - 60px);
     width: 100%;
@@ -282,19 +286,104 @@ iframe{
     fill: #badc58;
 }
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
+
+    .hide{
+        display: none;
+    }
+
+    .sub1{
+        display: block;
+        margin-right: 20px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+
+    /*.hero-image{
+        position: absolute;
+        z-index: -2;
+        width: 100%;
+        height: auto;
+        height: calc(100vh - 60px);
+        top: 60px;
+        left: 0;
+        object-fit: cover;
+        background-size: 100% 100%;
+    }*/
+    
+    h1{
+        font-size: 21px;
+        margin: 5px;
+    }
+    .ita{
+        font-size: 12px;
+        margin-bottom: 25px;
+    }
+    button{
+        height: 46px;
+        width: 133px;
+        font-size: 12px;
+    }
+    .ptext{
+        font-size: 10px;
+        height: 32px;
+        width: 114px;
+    }
+    h3{
+        font-size: 16px;
+        height: 39px;
+        width: 136px;
+        text-align: center;
+    }
     .pizza {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         flex-direction: row;
         width: 250px;
         }
 
     .container{
-            position: relative;
-            width: 300px;
-            border-radius: 10px;
-            box-shadow: 0 5px 8px 0 rgba(24, 24, 24, 0.06);
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        flex-direction: column;
+        position: relative;
+        width: 300px;
+        height: 2580px;
+        border-radius: 10px;
+        box-shadow: 0 8px 10px 0 rgba(26, 26, 26, 0.06);
+        margin-left: 10px; 
+        }
+
+    .container::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 20px;
+        position: absolute;
+        top: -20px;
+        background-color: #FFF;
+        border-top-left-radius:20px;
+        border-top-right-radius: 20px;  
+        }
+        
+        
+        
+    .container::after {
+        content: '';
+        display: block;
+        width:  100%;
+        height: 30px;
+        background-color: #FFF;
+        position: relative;
+        top: 25px;
+        z-index: 5;
+        border-bottom-right-radius:20px;
+        border-bottom-left-radius: 20px;
+            
+            
         }
 
     h2{
@@ -303,12 +392,23 @@ iframe{
         align-content: center;
 
     }
+    .list{
+        height: 414px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        border-radius: 25px;
+        box-sizing: border-box;
+        margin-left: 25px;
+        }
 
     footer{
         position: absolute;
         left: 0;
         background-color: #292C2F;
-        width: 320px;
+        width: 100%;
         height: 644px;
         display: flex;
         flex-direction: column;
@@ -326,7 +426,7 @@ iframe{
         align-items: center;
         width: 300px;
         height: 60px;
-        margin-top: 140px;
+        margin-top: 50px;
     }
     .tel{
         color: #f59a63;
@@ -337,6 +437,7 @@ iframe{
         border-radius: 15px;
         width: 300px;
         height: 290px;
+        margin-bottom: 10px;
     }
     
     .logos{
@@ -345,6 +446,8 @@ iframe{
         align-items: center;
         justify-content: space-around;
         width: 300px;
+        height: 200px;
+        margin-bottom: 5px;
     }
     /*.soc{
         width: 100px;
