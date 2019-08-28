@@ -54,7 +54,9 @@ ul {
     justify-content: space-between;
     
 }
-
+.sub3{
+    display: none;
+}
 a {
     color: #181818;
     transition: 300ms color ease;
@@ -68,7 +70,9 @@ a:hover {
 .sub1{
     display: none;
 }
-
+.sub2{
+    display: none;
+}
 .hero-content {
     height: calc(100vh - 60px);
     width: 100%;
@@ -292,13 +296,77 @@ iframe{
         display: none;
     }
 
-    .sub1{
-        display: block;
-        margin-right: 20px;
-    }
+
+
     .logo{
         margin-left: 20px;
     }
+
+    .sub1{
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        position: relative;
+        margin: 20px;
+        margin-top: 20px;
+    }
+    .sub1 .sub2{
+        display: none;
+        position: absolute;
+        z-index: 99;
+        top: 0;
+        left: 0;
+    }
+    
+    
+    .sub1:hover .sub2{
+        display: block;
+        background-color: #fff;
+    }
+
+    .sub1 .sub3{
+        display: none;
+        position: absolute;
+        z-index: 99;
+
+        }    
+    .sub1:hover + .sub3{
+        display: flex;
+            }
+
+
+    .sub3{
+        background-color: #181818;
+        position: fixed;
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        top: 60px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
+        text-align: center;
+        
+    }
+    .heromenu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        width: 84px;
+        height: 139px;
+        font-size: 14px;
+
+    }
+    .bmenu{
+        color: #FFF
+
+    }
+    
+    
 
     /*.hero-image{
         position: absolute;
@@ -312,6 +380,9 @@ iframe{
         background-size: 100% 100%;
     }*/
     
+    .scroll, .dau{
+        display: none;
+    }
     h1{
         font-size: 21px;
         margin: 5px;
