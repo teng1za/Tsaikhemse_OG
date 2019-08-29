@@ -1,18 +1,18 @@
 @font-face {
-    font-family: lato;
-    src: url(/assets/fonts/Lato-Black.ttf)
+    font-family: dejavusans;
+    src: url(../fonts/BPG\ 2017\ DejaVuSans.ttf)
 }
 
 @font-face {
-    font-family: latobold;
-    src: url(/assets/fonts/Lato-Bold.ttf)
+    font-family: dejavusanscaps;
+    src: url(../fonts/BPG\ 2017\ DejaVu\ Sans\ Caps.ttf)
 }
 
-h1,h2,h3 {
-    font-family: caps;
+h1,h2,button,.hide,.heromenu, .adress {
+    font-family: dejavusanscaps;
 }
-p{
-    font-family: normalbold;    
+p,h3,.scroll {
+    font-family: dejavusans;    
 }
 
 
@@ -44,6 +44,10 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 60px;
+}
+.hide{
+    font-size: 14px;
+
 }
 
 ul {
@@ -104,7 +108,7 @@ a:hover {
 }
 
 .hero-text {
-    margin-top: 100px;
+    margin-top: 40px;
     text-align: center;
     color:#fff;
     display: flex;
@@ -122,7 +126,7 @@ a:hover {
 
 .scroll{
     color: #FFF;
-    margin-top: 85px;
+    margin-top: 45px;
 }
 
 .hero-image {
@@ -155,6 +159,7 @@ h2{
     flex-wrap: wrap;
     width: 1084px;
     justify-content: space-around;
+    margin-top: 50px;
     
 }
 .container{
@@ -186,7 +191,7 @@ h2{
 	height: 60px;
 	background-color: #FFF;
     position: relative;
-    top: 53px;
+    top: 35px;
 	z-index: 5;
 	border-bottom-right-radius:20px;
 	border-bottom-left-radius: 20px;
@@ -271,7 +276,8 @@ footer::before{
     align-items: center;
     width: 1086px;
     height: 60px;
-    margin-top: 140px;
+    margin-top: 100px;
+    margin-bottom: -20px;
 }
 .tel{
     color: #f59a63;
@@ -287,6 +293,7 @@ iframe{
     align-items: center;
     justify-content: space-between;
     width: 1086px;
+    margin-bottom: 30px;
 }
 .soc{
     width: 100px;
