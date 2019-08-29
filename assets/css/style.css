@@ -95,7 +95,7 @@ a:hover {
     
 }
 .hero-content::after{
-    content: url(/media/Basil1.png);
+    content: url(media/Basil1.png);
     position: absolute;
     z-index: 1;
     right: -905px;
@@ -255,7 +255,7 @@ footer{
     justify-content: space-between;
 }
 footer::before{
-    content: url(/media/Basil2.png);
+    content: url(media/Basil2.png);
     z-index: -1;
     position: absolute;
     top: -315px;
