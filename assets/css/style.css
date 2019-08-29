@@ -495,7 +495,7 @@ iframe{
         flex-direction: column;
         position: relative;
         width: 300px;
-        height: 2580px;
+        height: 2720px;
         border-radius: 10px;
         box-shadow: 0 8px 10px 0 rgba(26, 26, 26, 0.06);
         margin-left: 10px; 
@@ -522,7 +522,7 @@ iframe{
         height: 20px;
         background-color: #FFF;
         position: relative;
-        top: 15px;
+        top: -55;
         z-index: 5;
         border-bottom-right-radius:20px;
         border-bottom-left-radius: 20px;
@@ -570,7 +570,7 @@ iframe{
         align-items: center;
         width: 300px;
         height: 60px;
-        margin-top: 50px;
+        margin-top: 35px;
         font-size: 12px;
         
     }
@@ -595,6 +595,7 @@ iframe{
         width: 300px;
         height: 200px;
         margin-bottom: 5px;
+        margin-top: -20px;
     }
     
 }
