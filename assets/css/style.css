@@ -35,7 +35,8 @@ h1{font-size: 50px;
 }
 body {
     max-width: 1084px;
-    margin: 0 auto;    
+    margin: 0 auto;
+    overflow-x: hidden;    
 }
 
 
@@ -90,7 +91,7 @@ a:hover {
     display: block;
     position: absolute;
     top: 60px;
-    bottom: -17px;
+    bottom: -1px;
     left: 0;
     right: 0;
     background-color: #181818;
@@ -104,6 +105,8 @@ a:hover {
     z-index: 1;
     right: -905px;
     bottom: -390px;
+   
+    
     
 }
 
