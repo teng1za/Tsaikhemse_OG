@@ -224,6 +224,11 @@ h2{
 
 }
 
+.damatebulia {
+    background-color: #eee;
+    content: "დამატებულია"
+}
+
 button{
     display: flex;
     flex-wrap: wrap;
