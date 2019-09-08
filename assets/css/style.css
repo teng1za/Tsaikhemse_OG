@@ -167,11 +167,14 @@ h2{
 }
 .container{
     position: relative;
-    width: 1086px;
+    max-width: 1084px;
+    width: 84vw;
     border-radius: 10px;
     box-shadow: 0 5px 8px 0 rgba(24, 24, 24, 0.06);
     background-color: #FFF;
     bottom:-7px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .container::before {
     content: '';
@@ -227,6 +230,7 @@ h2{
 .damatebulia {
     background-color: #eee;
     content: "დამატებულია"
+    
 }
 
 button{
@@ -282,7 +286,7 @@ footer::before{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1086px;
+    width: 81%;
     height: 60px;
     margin-top: 100px;
     margin-bottom: -20px;
@@ -294,6 +298,7 @@ footer::before{
 
 iframe{
     border-radius: 15px;
+    width: 81%;
 }
 
 .logos{
@@ -514,7 +519,7 @@ iframe{
         display: flex;        
         justify-content: space-around;
         align-items: center;
-        width: 702px;
+        width: 95%;
         height: 60px;
         margin-top: 80px;
         font-size: 14px;
@@ -528,7 +533,7 @@ iframe{
     
     iframe{
         border-radius: 15px;
-        width: 702px;
+        width: 95%;
         height: 290px;
         
     }
