@@ -264,6 +264,10 @@ button:active {
     outline: none;
     border: none;
 }
+button:focus {
+	outline:0;
+}
+
 footer{
     position: absolute;
     left: 0;
