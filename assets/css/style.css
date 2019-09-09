@@ -260,6 +260,10 @@ button:hover{
     border-radius: 10px;
     transition: 300ms;  
 }
+button:active {
+    outline: none;
+    border: none;
+}
 footer{
     position: absolute;
     left: 0;
