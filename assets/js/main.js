@@ -18,6 +18,7 @@ for (let i=0; i < add_buttons.length;
     let menu = document.getElementById('bigmenu')
         burger.addEventListener('click',function(){    
         this.classList.toggle('active');
-        menu.classList.toggle('sub3')
+        menu.classList.toggle('open');
+        
 
     })
