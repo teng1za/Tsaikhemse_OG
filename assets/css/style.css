@@ -219,6 +219,9 @@ h2{
     box-shadow: 0 5px 8px 0 rgba(24, 24, 24, 0.06);
        
 }
+img{
+    display: block;
+}
 .ptext { 
     text-align: center; 
      
